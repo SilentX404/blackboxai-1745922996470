@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LuxeVista Resort Logo"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back, User!"
+            android:textSize="20sp"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="32dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBrowseRooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏨 Browse Rooms"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBookSpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧖‍♀️ Book Spa"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReserveDining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍴 Reserve Dining"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPoolsideCabanas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏖️ Poolside Cabanas"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPromotions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎁 Promotions"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btnNearbyAttractions"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="🗺️ Nearby Attractions"
+    android:textSize="18sp"
+    android:layout_marginBottom="12dp"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btnHome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="🏠 Home"
+    android:textSize="18sp"
+    android:layout_marginBottom="12dp"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btnBookings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="📅 Bookings"
+    android:textSize="18sp"
+    android:layout_marginBottom="12dp"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btnServices"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="🛎️ Services"
+    android:textSize="18sp"
+    android:layout_marginBottom="12dp"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btnProfile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="👤 Profile"
+    android:textSize="18sp"
+    android:layout_marginBottom="12dp"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+</LinearLayout>
+</ScrollView>
